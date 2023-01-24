@@ -29,11 +29,3 @@ with open('super.txt', 'a',encoding='utf-8') as s:
         s.writelines(value[1:])
         s.write('\n')
 s.close()
-
-
-
-print(x)
-print(result)
-# f = open('super.txt', 'w', encoding='utf-8')
-# f.writelines(x.sorted())
-# f.close()
