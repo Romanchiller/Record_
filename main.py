@@ -28,4 +28,4 @@ with open('super.txt', 'a',encoding='utf-8') as s:
         s.write(f'{str(key)}\n')
         s.writelines(value[1:])
         s.write('\n')
-s.close()
+
